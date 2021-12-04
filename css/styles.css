@@ -545,3 +545,15 @@ header .logo {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+.exit {
+  position: absolute;
+  top: 8px;
+  left: 490px;
+  stroke: #000;
+  stroke-opacity: 0.1;
+}
+.exit:hover {
+  stroke: #2196f3;
+  stroke-opacity: 1;
+}
+/* stroke="#000" stroke-opacity=".1" */
