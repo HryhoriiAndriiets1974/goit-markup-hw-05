@@ -82,6 +82,9 @@ header .logo {
   font-size: 14px;
   line-height: 1.143;
   cursor: pointer;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav li:last-child a {
   margin-right: 0;
@@ -92,8 +95,6 @@ header .logo {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .auth-nav .link {
   font-family: Roboto;
@@ -107,13 +108,14 @@ header .logo {
   line-height: 1.143;
   cursor: pointer;
   align-items: center;
+  transition-property: color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .auth-img {
   margin-right: 10px;
@@ -157,12 +159,13 @@ header .logo {
   margin: 0 auto;
   display: block;
   padding: 10px 32px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-hero:hover,
 .button-hero:focus {
-  background: #188ce8;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #188ce8;
 }
 /* Унікальна частина --------------------------*/
 .section {
@@ -201,15 +204,16 @@ header .logo {
   line-height: 1.625;
   cursor: pointer;
   padding: 6px 22px;
+  transition-property: background-color, color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover,
 .button:focus {
   color: var(--primary-bg-color);
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Переваги ---------------------------------*/
 .feature-list {
@@ -367,6 +371,9 @@ header .logo {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team .item:last-child {
   margin-right: 0;
@@ -388,8 +395,6 @@ header .logo {
 .item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Соціальні мережі --------------------------*/
 .social {
@@ -412,19 +417,21 @@ header .logo {
   align-items: center;
   border-radius: 50%;
   fill: #afb1b8;
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-icon {
-  /* width: 20px;
-  height: 20px; */
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-icon:focus,
 .soc-icon:hover,
 .btn-soc:focus,
 .btn-soc:hover {
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   fill: #fff;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .connect {
   background: rgba(255, 255, 255, 0.1);
@@ -461,17 +468,14 @@ header .logo {
   border: 1px solid #afb1b8;
   background: var(--for-black-color);
   fill: #afb1b8;
-}
-.btn-icon {
-  /* width: 106px;
-  height: 60px; */
+  transition-property: border, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-client:focus,
 .btn-client:hover {
   fill: #2196f3;
   border: 1px solid #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Підвал ------------------------------------*/
 .page-footer {
@@ -483,6 +487,9 @@ header .logo {
   font-size: 14px;
   line-height: 1.714;
   margin-top: 20px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo-footer {
   color: #fff;
@@ -494,12 +501,13 @@ header .logo {
 .footer-contact .tel:hover,
 .footer-contact .tel:focus {
   color: var(--accent-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-contact .mailto,
 .footer-contact .tel {
   color: rgba(255, 255, 255, 0.6);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .end {
   display: flex;
