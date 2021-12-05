@@ -617,5 +617,5 @@ header .logo {
 .exit:hover {
   stroke: #2196f3;
   stroke-opacity: 1;
+  /* stroke="#000" stroke-opacity=".1" */
 }
-/* stroke="#000" stroke-opacity=".1" */
